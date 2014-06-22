@@ -121,7 +121,7 @@ section div.copy p:last-child{
   margin-left: 15px;
 }
 
-button.buy{
+a.buy{
   margin-top: 20px;
   padding: 10px;
   padding-left: 30px;
@@ -132,16 +132,17 @@ button.buy{
   background-color: #fff;
   color: #000;
   margin-bottom: 20px;
-
+  display: inline-block;
 }
 
-button.buy:hover{
+a.buy:hover{
   background-color: #698693;
   border: 3px solid #698693;
   color: #fff;
+  text-decoration: none;
 }
 
-button i{
+a i{
   margin-right: 10px;
 }
 
@@ -190,7 +191,7 @@ button i{
 	  padding-left: 5px;
 	  padding-right: 5px;
 	}
-	button.buy{
+	a.buy{
 	  font-size: 19px;
 	}
 }
@@ -198,11 +199,7 @@ button i{
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
-/*
-	body{
-	  color: red !important;
-	}
-*/
+
 }
 
 /* Custom, iPhone Retina */ 
