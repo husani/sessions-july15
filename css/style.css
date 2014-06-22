@@ -1,0 +1,211 @@
+
+
+#share{
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+#video-fixed{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -2;
+}
+
+#video-custom{
+width: 100%;
+height: 100%;
+background: #000;
+position: static !important;
+}
+
+body{
+  font-family: 'Lato';
+  color: #fff;
+}
+
+header{
+  font-family: 'Lato';
+  margin-bottom: 50px;
+}
+
+header a, header a:hover, header a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+
+header h1{
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 90px;
+  line-height: 0.9em;
+}
+
+header h2{
+  font-weight: 300;
+  margin-top: 0;
+  padding-top: 0;
+  line-height: 0.9em;
+}
+
+section{
+  font-weight: 300;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+section.headline{
+  margin-bottom: 50px;
+}
+
+section.headline h4, section.headline h3{
+  margin: 0;
+  padding: 0;
+}
+
+section.headline h4{
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: rgba(255,255,255,0.6);
+}
+
+section div.copy{
+  border-left: 1px solid rgba(255,255,255,1);
+}
+
+section div.copy h2{
+  font-size: 20px;
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 400;
+  font-style: italic;
+}
+
+section div.copy h2.last{
+  margin-top: 30px;
+}
+
+section div.copy p:last-child{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.fancy {
+  line-height: 0.2;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative; 
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-top: 1px solid rgba(255,255,255,0.6);
+  top: 0;
+  width: 100%;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+button.buy{
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 30px;
+  box-shadow: none;
+  border: 3px solid #fff;
+  background-color: #fff;
+  color: #000;
+  margin-bottom: 20px;
+
+}
+
+button.buy:hover{
+  background-color: #698693;
+  border: 3px solid #698693;
+  color: #fff;
+}
+
+button i{
+  margin-right: 10px;
+}
+
+	@media only screen and (max-width : 1200px) {
+
+	}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	section div.copy{
+	  border-left: 0;
+	  padding-left: 5px;
+	  padding-right: 5px;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	#share{
+	  display: none;
+	}
+	header {
+	  margin-bottom: 20px;
+	}
+	header .col-sm-6{
+	  padding-left: 0;
+	}
+	.fancy span:before, .fancy span:after{
+	  display: none;
+	}
+	.video{
+      margin: 0;
+      padding: 0;
+	}
+	section.headline{
+	  margin-bottom: 30px;
+	}
+	li.instagram iframe{
+	  width: 100px;
+	  height: 100px;
+	}
+	section div.copy{
+	  border-left: 0;
+	  padding-left: 5px;
+	  padding-right: 5px;
+	}
+	button.buy{
+	  font-size: 19px;
+	}
+}
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+/*
+	body{
+	  color: red !important;
+	}
+*/
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	
+}
