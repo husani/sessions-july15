@@ -25,3 +25,9 @@ $(document).ready(function(){
 	$('.bxslider').bxSlider();
 	
 });
+
+function facebookConversionPixel(fb_pixel, fb_value){
+    var image = new Image(1,1); 
+    image.src = "//www.facebook.com/offsite_event.php?id=" + fb_pixel + "&amp;value=" + fb_value + "&amp;currency=USD";
+
+}
